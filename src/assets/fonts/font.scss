@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'special-icons';
+    src: url('//at.alicdn.com/t/c/font_3866569_5gd1zgrfrfs.woff2?t=1673955707855') format('woff2'),
+      url('//at.alicdn.com/t/c/font_3866569_5gd1zgrfrfs.woff?t=1673955707855') format('woff'),
+      url('//at.alicdn.com/t/c/font_3866569_5gd1zgrfrfs.ttf?t=1673955707855') format('truetype'),
+      url('//at.alicdn.com/t/c/font_3866569_5gd1zgrfrfs.svg?t=1673955707855#iconfont') format('svg');font-display: inline;
+    font-style: normal;
+}
+
+// class包含's-icon-'的就可以获得下面样式
+[class*='s-icon-'] {
+    font-family: "special-icons" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .s-icon-bluetoothoff:before {
+    content: "\e60b";
+  }
+  
+  
